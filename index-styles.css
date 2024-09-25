@@ -1,1 +1,27 @@
+html {
+  box-sizing: border-box;
+}
 
+* {
+  box-sizing: inherit;
+}
+
+.flex-container {
+  display: flex;
+}
+
+body {
+  width: 1280px;
+  height: 100vh;
+  margin: auto;
+  font-family: Montserrat, Verdana, Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+}
+
+.h1fd {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
