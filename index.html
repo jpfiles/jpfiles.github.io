@@ -38,24 +38,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- Header -->
 <header class="w3-container w3-red w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-jumbo">UNDER CONTSTRUCTION</h1>
-  <p class="w3-xlarge">
-    Thanks for visiting my page!
-  </p>
-  <p>I'm currently hard at work on multiple projects.
-    Please check back again soon.
-  </p>
 <script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-// Set the date we're counting down to
+  // Set the date we're counting down to
 var countDownDate = new Date("Oct 2, 2024 15:37:25").getTime();
 
 // Update the count down every 1 second
@@ -83,6 +67,24 @@ var countdownfunction = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+</script>
+  <h1 class="w3-margin w3-jumbo">UNDER CONTSTRUCTION</h1>
+  <p class="w3-xlarge">
+    Thanks for visiting my page!
+  </p>
+  <p>I'm currently hard at work on multiple projects.
+    Please check back again soon.
+  </p>
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
 </script>
   <!-- <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button> -->
 </header>
